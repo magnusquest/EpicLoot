@@ -1,0 +1,1 @@
+Used to connect to SQL Server port 1433 and opens a PGCLI on the machine
