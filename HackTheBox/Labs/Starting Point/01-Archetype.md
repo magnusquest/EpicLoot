@@ -52,7 +52,7 @@ SQL> xp_cmdshell "whoami"
 ```
 >archetype\sql_svc
 
-Setup reverse shell listener on attacker with [[Netcat]]
+Setup reverse shell listener on attacker with [[Netcat & PHP Server]]
 ```bash
 nc -lnvp 1234
 ```

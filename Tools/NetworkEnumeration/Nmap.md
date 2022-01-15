@@ -9,7 +9,7 @@ By default, `Nmap` scans the top 1000 TCP ports with the SYN scan (`-sS`). This 
 ## Basic Commands
 
 This one is good for initial recon
-```apl
+```bash
 nmap -sV 10.10.10.27
 ```
 
@@ -86,6 +86,11 @@ Dealing with firewallas and intruder detection/prevention systems can be tricky.
 | `--top-ports <#>`                       | Scan the top <#> ports. Useful to remain undetected                                                                                  |
 
 
+### Proxies
+To intercept requests/responses with [[BurpSuite]]:
+```bash
+nmap --proxies http://127.0.0.1:8080 SERVER_IP -pPORT -Pn -sC
+```
 
 ---
 
@@ -99,3 +104,5 @@ To find DNS server information use this command:
 ```bash
 sudo nmap <target> -sSU -p 53 --script dns-nsid
 ```
+
+---
