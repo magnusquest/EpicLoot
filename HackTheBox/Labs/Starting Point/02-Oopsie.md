@@ -34,7 +34,7 @@ user: "34322"
 ```
 
 Since the user's account id is suplied in the URI of the web request, I attempt a brute force attack using [[BurpSuite]]'s Intruder module. 
->First, I intercept the request and hit `ctrl + i` to strart *Intruder*
+>First, I intercept the request and hit `ctrl + i` to start *Intruder*
 
 The *Intruder* tab allows us to change the payload flags to the id in the URI and iterate through a list of numbers 1-100 which can be generated with a simple bash or python script. Then click **Start Attack!**
 
