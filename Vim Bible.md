@@ -14,6 +14,10 @@
 | ctrl+x+e      | Open command in editor     |
 | ctrl+r        | Search command history     |
 
+To edit current command with Vim:
+>add `set -o vim` to .bashrc
+>hit 'esc' and edit
+
 ### Setup
 Open config file in vim 
 >vim ~/.vimrc
@@ -87,7 +91,8 @@ nnoremap S :%s//g<Left><Left>
 | ctrl+g   | Show file location and stats        |
 | 500G     | Go to line 500                      |
 | ''       | Go back to where you were           |
-|          |                                     |
+| gf       | Open file                           |
+| gx       | Open link                                    |
 
 ---
 ### Advanced
@@ -104,4 +109,8 @@ nnoremap S :%s//g<Left><Left>
 | :r FILE_NAME  | Insert file contents                        |
 | :r !ls        | Insert ls output in file                    |
 | :norm CMD     | Run command CMD in normal mode on selection |
+| :X            | Encrypt file                                |
+| ctrl+a        | Increment number                            |
+| ctrl+x        | Decrement number                            |
+| visual -> j   | Join lines                                  |
 
