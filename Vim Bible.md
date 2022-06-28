@@ -1,6 +1,19 @@
 # Vim Bible
 [Cheet Sheet](https://vim.rtorr.com/)
 ---
+### Useful Command line 
+| Command       | Description                |
+| ------------- | -------------------------- |
+| cd -          | Go back to prev dir        |
+| ctrl+a        | Go to beginning of command |
+| ctrl+e        | Go to end of command       |
+| ctrl+u        | Cut before cursor          |
+| ctrl+k        | Cut after cursor           |
+| ctrl+y        | Paste                      |
+| alt+backspace | Delete word                |
+| ctrl+x+e      | Open command in editor     |
+| ctrl+r        | Search command history     |
+
 ### Setup
 Open config file in vim 
 >vim ~/.vimrc
@@ -28,7 +41,7 @@ nnoremap S :%s//g<Left><Left>
 | dd       | Cut line                            |
 | dw       | Delete word                         |
 | de       | Delete to end of word               |
-| db       | Delete to stsrt of word             |
+| db       | Delete to start of word             |
 | d$ or D  | Delete until EOL                    |
 | d\}      | Delete to end of paragraph          |
 | dap      | Delete around paragraph             |
