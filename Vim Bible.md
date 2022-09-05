@@ -1,5 +1,5 @@
 # Vim Bible
-[Cheet Sheet](https://vim.rtorr.com/)
+[Cheat Sheet](https://vim.rtorr.com/)
 ---
 ### Useful Command line 
 | Command       | Description                |
@@ -92,7 +92,8 @@ nnoremap S :%s//g<Left><Left>
 | 500G     | Go to line 500                      |
 | ''       | Go back to where you were           |
 | gf       | Open file                           |
-| gx       | Open link                                    |
+| gx       | Open link                           |
+| J        | Join line below                     |
 
 ---
 ### Advanced
@@ -112,5 +113,3 @@ nnoremap S :%s//g<Left><Left>
 | :X            | Encrypt file                                |
 | ctrl+a        | Increment number                            |
 | ctrl+x        | Decrement number                            |
-| visual -> j   | Join lines                                  |
-
