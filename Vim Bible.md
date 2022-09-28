@@ -39,9 +39,13 @@ nnoremap S :%s//g<Left><Left>
 
 | Shortcut | Description                         |
 | -------- | ----------------------------------- |
+| ctrl+\[  | Escape                              |
 | hjkl     | Move cursor                         |
 | ctrl+u   | Page up                             |
 | ctrl+d   | Page down                           |
+| fc       | Forwards to character 'c'           |
+| Fc       | Backwards to character 'c'          |
+| ge / e   | Previous / next end of word         |
 | dd       | Cut line                            |
 | dw       | Delete word                         |
 | de       | Delete to end of word               |
@@ -77,6 +81,7 @@ nnoremap S :%s//g<Left><Left>
 | G        | End of file                         |
 | a        | Append text after word              |
 | A        | Append text end of line             |
+| s        | Substitute character                |
 | c        | Change                              |
 | C or c$  | Change line                         |
 | da\[     | Delete around (eg: bracket)         |
