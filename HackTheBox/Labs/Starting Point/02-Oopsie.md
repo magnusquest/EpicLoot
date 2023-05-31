@@ -47,4 +47,3 @@ We find that user ID 86575 has super admin web privileges
 
 ---
 ### Upload Exploit 
-Let's try to find

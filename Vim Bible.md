@@ -1,4 +1,3 @@
-# Vim Bible
 [Cheat Sheet](https://vim.rtorr.com/)
 ---
 ### Useful Command line 
