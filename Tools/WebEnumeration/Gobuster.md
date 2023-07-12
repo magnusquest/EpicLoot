@@ -1,4 +1,3 @@
-# gobuster
 Directory brute forcing tool for web
 
 ---

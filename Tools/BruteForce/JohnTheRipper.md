@@ -1,4 +1,3 @@
-# JohnTheRipper
 Used for password cracking, also contains tools for extracting hashes
 
 ---
@@ -9,3 +8,4 @@ Used for password cracking, also contains tools for extracting hashes
 - 7z2john
 - pdf2john
 - hcxpcapngtool
+

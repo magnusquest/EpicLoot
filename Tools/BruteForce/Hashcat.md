@@ -1,4 +1,3 @@
-# Hashcat
 Brute force offline password cracking tool
 [Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)
 [Extra Tools](https://github.com/ZerBea/hcxtools)

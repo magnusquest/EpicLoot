@@ -1,4 +1,3 @@
-# Hydra
 Online brute forcing tool.
 
 ---

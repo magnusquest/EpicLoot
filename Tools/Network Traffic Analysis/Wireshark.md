@@ -4,6 +4,10 @@ Network Traffic Analysis tool with GUI
 ---
 
 ## Basics
+Start Wireshark from command line
+```shell
+sudo -E wireshark
+```
 To start a capture, click `Capture` in the toolbar and select the network interface
 
 ### Capture Filters
@@ -36,7 +40,7 @@ These are only applied to view and analyze results from a capture or .pcap file
 | and / or / not             | Logical operators                                 |
 
 ### Folllowing TCP Streams
-Wireshark can stitch TCP packets back together to recreate the entire stream in a readable format. This ability also allows us to pull data (`images, files, etc.`) out of the capture. This works for almost any protocol that utilizes TCP as a transport mechanism.
+#Wireshark can stitch TCP packets back together to recreate the entire stream in a readable format. This ability also allows us to pull data (`images, files, etc.`) out of the capture. This works for almost any protocol that utilizes TCP as a transport mechanism.
 
 To utilize this feature:
 

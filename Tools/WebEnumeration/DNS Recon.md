@@ -1,4 +1,3 @@
-# DNS Recon
 ### Linux Commands
 
 ```bash

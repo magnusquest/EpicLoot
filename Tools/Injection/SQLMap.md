@@ -94,7 +94,7 @@ sqlmap -u "http://www.example.com/?id=1" --banner --current-user --current-db --
 `--dump` will display table data specified by `-T tablename` and columns by `-C a,b` 
 and rows by `--start=2 --stop=3` and further specified by `--where="name LIKE 'f%'"`
 
-`--dump-all` will dumap all the content from all the databases
+`--dump-all` will dump all the content from all the databases
 `--exclude-sysdbs` will exclude content from system databases
 
 `--schema` will retrieve the structure of all the tables
