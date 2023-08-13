@@ -1,6 +1,8 @@
 #### Command line tool used to edit and view exif meta tags
 ---
 
+https://exiftool.org/install.html
+
 First create a `.jpg` template:
 ```shell
 convert -size 32x32 xc:blue xss.jpg

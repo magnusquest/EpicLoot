@@ -1,4 +1,3 @@
-# Fuff
 Fuff is a tool used for web fuzzing. Fuzzing is a technique used to test inputs in blackbox environments against wordlists. These wordlists, commonly under `/opt/useful/SecLists/Discovery/Web-Content`, contain possible matches to directories, passwords, usernames, etc.
 
 ___

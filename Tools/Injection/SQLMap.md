@@ -1,4 +1,3 @@
-# SQLMap 
 Penetration testing tool to detect and exploit SQL injection vulnerabilities
 
 ---
@@ -16,6 +15,9 @@ The default SQL injection techniques used are described by the acronym BEUSTQ
 ## Basic Usage
 ```shell
 sqlmap -u "http://www.example.com/vuln.php?id=1" --batch
+
+# More Aggressive
+sqlmap -u "http://www.example.com/vuln.php?id=1" --batch --level 5 --risk 3
 ```
 
 Use the `copy as cURL` right click option from the networking tab in inspector and replace with sqlmap
